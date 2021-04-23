@@ -1,7 +1,6 @@
 const fs = require('fs')
 
 //write html file
-
 function writeSite(html){
     fs.writeFile('./output/team.html', html, err => {
     if (err){
@@ -9,9 +8,6 @@ function writeSite(html){
     }
     console.log("Page created!")
     })
-
-     
-    
 }
 
 module.exports = writeSite;
