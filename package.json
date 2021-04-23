@@ -1,0 +1,24 @@
+{
+  "name": "teamprofile",
+  "version": "1.0.0",
+  "description": "Team profile generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoorA1125/teamprofile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoorA1125/teamprofile/issues"
+  },
+  "homepage": "https://github.com/NoorA1125/teamprofile#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
