@@ -47,10 +47,13 @@ const addManager = () => {
             },
             //function to add created manager's info into team array     
         ]).then(answers => {
+            console.log(answers);
             const manager = new Manager(answers.name, answers.id, answers.email, answers.officeNumber);
+            console.log(manager);
             team.push(manager);
-            res();
-        });
+
+        }).then(() => addEmployee())
+
     });
 }
 //Then prompt everyone else (Intern, Engineer etc.)
@@ -145,9 +148,9 @@ const addEmployee = () => {
                         team.push(intern);
                         break;
                 }
-                return addEmployee().then(() => resolve());
-            } else {
-                return resolve();
+                console.log(team);
+                const templateHTML = render(team)
+                generatePage(templateHTML);
             }
         })
     })
@@ -158,6 +161,7 @@ addManager().then(() => {
     return addEmployee();
     //calling render function to export team array information into html template   
 }).then(() => {
+    console.log(team);
     const templateHTML = render(team)
     generatePage(templateHTML);
 }).catch((err) => {
