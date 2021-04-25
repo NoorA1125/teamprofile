@@ -169,7 +169,7 @@ addManager().then(() => {
 });
 
 //function to generate html page in output folder
-const generatePage = (html) => {
+const generatePage = (htmlPage) => {
     if (!fs.existsSync(OUTPUT_DIR)) {
         fs.mkdirSync(OUTPUT_DIR);
     }
