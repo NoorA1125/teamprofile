@@ -147,11 +147,13 @@ const addEmployee = () => {
                         const intern = new Intern(answers.name, answers.id, answers.email, answers.school);
                         team.push(intern);
                         break;
-                }
-                console.log(team);
+                } 
                 const templateHTML = render(team)
                 generatePage(templateHTML);
-            }
+                return addEmployee().then(() => resolve());
+                
+            } else {
+                return resolve();}
         })
     })
 }
