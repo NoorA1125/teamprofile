@@ -10,6 +10,11 @@ From the name, to the role of the individual, to email, id, etc.
 * ```nom i inquirer ```
 * Run ```npm install``` to install all node.js dependencies/packages.
 
+## Screenshot
+[Click here to see the demo video](Video not uploaded yet. . .)
+
+![](/Assets/ScreenShot.png)
+
 ## Any Questions for the author?
 * I can be reached at: 
 nooromar305@gmail.com 

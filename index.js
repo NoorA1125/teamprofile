@@ -148,11 +148,11 @@ const addEmployee = () => {
                         team.push(intern);
                         break;
                 } 
-                const templateHTML = render(team)
-                generatePage(templateHTML);
                 return addEmployee().then(() => resolve());
                 
             } else {
+                const templateHTML = render(team)
+                generatePage(templateHTML);
                 return resolve();}
         })
     })
