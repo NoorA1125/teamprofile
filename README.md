@@ -5,7 +5,7 @@ Team profile generator is an application that prompts a user to enter the it's e
 From the name, to the role of the individual, to email, id, etc.
 
 ## How does it work
-* You will need Node.js
+* You will need Node.js ``` npm i```
 * Then intall the Inquirer npm package. 
 * ```npm i inquirer ```
 * Run ```npm install``` to install all node.js dependencies/packages.
