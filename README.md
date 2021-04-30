@@ -7,8 +7,9 @@ From the name, to the role of the individual, to email, id, etc.
 ## How does it work
 * You will need Node.js
 * Then intall the Inquirer npm package. 
-* ```nom i inquirer ```
+* ```npm i inquirer ```
 * Run ```npm install``` to install all node.js dependencies/packages.
+* To Start the application: ```node index.js ``` This should run the application for you via terminal.
 
 ## Screenshot
 [Click here to see the demo video](Video not uploaded yet. . .)
